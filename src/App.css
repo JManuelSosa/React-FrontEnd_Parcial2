@@ -1,0 +1,19 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+} */
+
+
+#root {
+  min-height: 100vh;  /*  Ocupa toda la pantalla */
+  width: 100%;        /*  Evita restricciones de tamaño */
+  display: flex;
+  flex-direction: column; /* Permite que los hijos se acomoden en columna */
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body{
+  background-color: #f8f8f8;
+}
